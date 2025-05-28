@@ -8,10 +8,9 @@
 		"SquareShaper"
 	],
 	"contact": {
-		"homepage": "",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/SquareShaper/sla-magmastone-1.21"
 	},
-	"license": "CC0-1.0",
+	"license": "<MIT>",
 	"icon": "assets/sla-magmastone/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -20,6 +19,9 @@
 		],
 		"fabric-datagen": [
 			"net.squareshaper.slamagmastone.SLAMagmastoneDataGenerator"
+		],
+		"client": [
+			"net.squareshaper.slamagmastone.SLAMagmaStoneClient"
 		]
 	},
 	"mixins": [
