@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
+import net.minecraft.data.client.TexturedModel;
 import net.squareshaper.slamagmastone.registry.ModBlocks;
 
 public class ModModelProvider extends FabricModelProvider {
@@ -13,7 +14,8 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MAGMASTONE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SMOOTH_MAGMASTONE);
+        blockStateModelGenerator.registerAxisRotated(ModBlocks.MAGMASTONE, TexturedModel.CUBE_COLUMN);
     }
 
     @Override

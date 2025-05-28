@@ -1,6 +1,7 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "minecraft:block/cube_column",
   "textures": {
-    "all": "sla-magmastone:block/magmastone"
+    "end": "sla-magmastone:block/magmastone_top",
+    "side": "sla-magmastone:block/magmastone_side"
   }
 }
