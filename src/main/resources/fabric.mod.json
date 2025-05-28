@@ -3,7 +3,7 @@
 	"id": "sla-magmastone",
 	"version": "${version}",
 	"name": "SLA - Magmastone",
-	"description": "This mod adds a new type of decorative block, Magmastone. It's made from blackstone and magma blocks, and comes in the usual stone variants. ",
+	"description": "This mod adds a new type of decorative block, Magmastone. It's made from basalt and magma blocks, and comes in the usual stone variants. ",
 	"authors": [
 		"SquareShaper"
 	],
