@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "sla-magmastone",
+	"version": "${version}",
+	"name": "SLA - Magmastone",
+	"description": "This mod adds a new type of decorative block, Magmastone. It's made from blackstone and magma blocks, and comes in the usual stone variants. ",
+	"authors": [
+		"SquareShaper"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/sla-magmastone/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.squareshaper.slamagmastone.SLAMagmastone"
+		],
+		"fabric-datagen": [
+			"net.squareshaper.slamagmastone.SLAMagmastoneDataGenerator"
+		]
+	},
+	"mixins": [
+		"sla-magmastone.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
