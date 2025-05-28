@@ -21,7 +21,7 @@
 			"net.squareshaper.slamagmastone.SLAMagmastoneDataGenerator"
 		],
 		"client": [
-			"net.squareshaper.slamagmastone.SLAMagmaStoneClient"
+			"net.squareshaper.slamagmastone.SLAMagmastoneClient"
 		]
 	},
 	"mixins": [
