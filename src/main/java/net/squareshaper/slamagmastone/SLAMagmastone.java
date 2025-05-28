@@ -2,6 +2,8 @@ package net.squareshaper.slamagmastone;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.minecraft.util.Identifier;
+import net.squareshaper.slamagmastone.registry.ModBlocks;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -14,6 +16,6 @@ public class SLAMagmastone implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModBlocks.registerModBlocks();
 	}
 }
