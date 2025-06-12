@@ -23,6 +23,11 @@ public class ModBlocks {
                     .sounds(BlockSoundGroup.BASALT).mapColor(MapColor.DARK_CRIMSON).strength(1.25F, 4.2F)
                     .requiresTool().luminance(state -> 3)));
 
+    public static final Block POLISHED_MAGMASTONE = registerBlock("polished_magmastone",
+            new MagmaPillarBlock(AbstractBlock.Settings.create()
+                    .sounds(BlockSoundGroup.BASALT).mapColor(MapColor.DARK_CRIMSON).strength(1.25F, 4.2F)
+                    .requiresTool().luminance(state -> 3)));
+
 
     public static void registerModBlocks() {
         SLAMagmastone.LOGGER.info("Registering Mod Blocks for " + SLAMagmastone.MOD_ID);
@@ -30,6 +35,7 @@ public class ModBlocks {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
             entries.addAfter(Items.POLISHED_BASALT, ModBlocks.MAGMASTONE);
             entries.addAfter(ModBlocks.MAGMASTONE, ModBlocks.SMOOTH_MAGMASTONE);
+            entries.addAfter(ModBlocks.SMOOTH_MAGMASTONE, ModBlocks.POLISHED_MAGMASTONE);
         });
     }
 

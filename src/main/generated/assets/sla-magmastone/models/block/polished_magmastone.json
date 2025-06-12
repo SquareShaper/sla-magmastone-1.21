@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "sla-magmastone:block/polished_magmastone_top",
+    "side": "sla-magmastone:block/polished_magmastone_side"
+  }
+}

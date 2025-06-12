@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "sla-magmastone:block/polished_magmastone",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "sla-magmastone:block/polished_magmastone"
+    },
+    "axis=z": {
+      "model": "sla-magmastone:block/polished_magmastone",
+      "x": 90
+    }
+  }
+}

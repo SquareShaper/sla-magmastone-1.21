@@ -16,6 +16,7 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SMOOTH_MAGMASTONE);
         blockStateModelGenerator.registerAxisRotated(ModBlocks.MAGMASTONE, TexturedModel.CUBE_COLUMN);
+        blockStateModelGenerator.registerAxisRotated(ModBlocks.POLISHED_MAGMASTONE, TexturedModel.CUBE_COLUMN);
     }
 
     @Override

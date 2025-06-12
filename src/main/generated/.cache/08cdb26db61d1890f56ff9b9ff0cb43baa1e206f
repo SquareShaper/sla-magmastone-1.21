@@ -1,7 +1,10 @@
-// 1.21	2025-05-28T23:15:51.3517944	SLA - Magmastone/Model Definitions
-b10931a3630cd1e613cdb1dd8c4539a491b418cb assets\sla-magmastone\models\item\magmastone.json
-23226afc0593c5988e0e8b95949f3dd7e3164c91 assets\sla-magmastone\models\block\smooth_magmastone.json
-9213cf99a4f709fe17b19e69da94db6b85e84442 assets\sla-magmastone\models\item\smooth_magmastone.json
-52ae875cb008fbe818aa1c62ccf485881efb18b5 assets\sla-magmastone\blockstates\smooth_magmastone.json
-002d5897603b1b1e0dee88dd86d0ef64d8826d64 assets\sla-magmastone\models\block\magmastone.json
-fc7960d0201acf3c8e0c588485c07f0029c29305 assets\sla-magmastone\blockstates\magmastone.json
+// 1.21	2025-06-12T11:41:36.721952376	SLA - Magmastone/Model Definitions
+b10931a3630cd1e613cdb1dd8c4539a491b418cb assets/sla-magmastone/models/item/magmastone.json
+1e9d2394abf1c8e97073dbad7d6393475372fdcd assets/sla-magmastone/models/item/polished_magmastone.json
+fc7960d0201acf3c8e0c588485c07f0029c29305 assets/sla-magmastone/blockstates/magmastone.json
+d407a68d5b453751ebf0e91f45a087e894bb6f15 assets/sla-magmastone/models/block/polished_magmastone.json
+4a65597624f9faf3533f99748aa145c34fb06d07 assets/sla-magmastone/blockstates/polished_magmastone.json
+002d5897603b1b1e0dee88dd86d0ef64d8826d64 assets/sla-magmastone/models/block/magmastone.json
+9213cf99a4f709fe17b19e69da94db6b85e84442 assets/sla-magmastone/models/item/smooth_magmastone.json
+52ae875cb008fbe818aa1c62ccf485881efb18b5 assets/sla-magmastone/blockstates/smooth_magmastone.json
+23226afc0593c5988e0e8b95949f3dd7e3164c91 assets/sla-magmastone/models/block/smooth_magmastone.json
